@@ -109,6 +109,6 @@ Want to see it in action? Follow these steps to run the project locally on your 
 
 ## 👨‍💻 About the Author
 
-This project was built by **Singh** as a comprehensive demonstration of modern frontend engineering skills, including React architecture, TypeScript proficiency, and UI/UX design sensibility.
+This project was built by **Tushar Singh** as a comprehensive demonstration of modern frontend engineering skills, including React architecture, TypeScript proficiency, and UI/UX design sensibility.
 
 *Thank you for checking out BenefitsAI!*
