@@ -1,0 +1,99 @@
+.container {
+    padding: 1rem 0;
+}
+
+.header {
+    margin-bottom: 2rem;
+    text-align: center;
+}
+
+.headerTop {
+    margin-bottom: 1rem;
+}
+
+.categoryBadge {
+    background-color: var(--primary-100);
+    color: var(--primary-700);
+    padding: 0.25rem 0.75rem;
+    border-radius: 999px;
+    font-weight: 600;
+    font-size: 0.875rem;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+}
+
+.title {
+    font-size: 1.75rem;
+    color: var(--gray-900);
+    margin-bottom: 0.5rem;
+}
+
+.subtitle {
+    color: var(--gray-500);
+}
+
+.grid {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    max-width: 42rem;
+    margin: 0 auto;
+}
+
+.benefitCard {
+    border-left: 4px solid var(--primary-500);
+}
+
+.cardContent {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 1rem;
+}
+
+.benefitTitle {
+    font-size: 1.125rem;
+    margin-bottom: 0.25rem;
+    color: var(--gray-900);
+}
+
+.benefitDesc {
+    font-size: 0.95rem;
+    color: var(--gray-600);
+    margin-bottom: 0.75rem;
+}
+
+.coverage {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    font-size: 0.875rem;
+    color: var(--primary-700);
+    font-weight: 500;
+    background-color: var(--primary-50);
+    padding: 0.25rem 0.5rem;
+    border-radius: var(--radius-sm);
+    width: fit-content;
+}
+
+.checkIcon {
+    color: var(--primary-600);
+}
+
+.arrow {
+    color: var(--gray-400);
+}
+
+.emptyState {
+    text-align: center;
+    padding: 3rem;
+    background: var(--bg-surface);
+    border-radius: var(--radius-lg);
+    color: var(--gray-500);
+}
+
+.footerActions {
+    margin-top: 2.5rem;
+    display: flex;
+    justify-content: center;
+}

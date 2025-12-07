@@ -1,0 +1,114 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 60vh;
+    text-align: center;
+}
+
+.hero {
+    margin-bottom: 2.5rem;
+}
+
+.title {
+    font-size: 2.5rem;
+    color: var(--gray-900);
+    margin-bottom: 1rem;
+    line-height: 1.2;
+}
+
+.subtitle {
+    font-size: 1.125rem;
+    color: var(--gray-500);
+    max-width: 32rem;
+    margin: 0 auto;
+}
+
+.inputCard {
+    width: 100%;
+    max-width: 40rem;
+    margin: 0 auto;
+    text-align: left;
+    padding: 0;
+    overflow: hidden;
+}
+
+.inputWrapper {
+    display: flex;
+    align-items: flex-start;
+    padding: 1.5rem;
+    gap: 1rem;
+}
+
+.searchIcon {
+    color: var(--primary-400);
+    margin-top: 0.75rem;
+}
+
+.textarea {
+    flex: 1;
+    border: none;
+    font-size: 1.125rem;
+    font-family: inherit;
+    resize: none;
+    outline: none;
+    color: var(--gray-900);
+    background-color: transparent;
+}
+
+.textarea::placeholder {
+    color: var(--gray-400);
+}
+
+.errorMessage {
+    color: var(--error);
+    font-size: 0.875rem;
+    padding: 0 1.5rem 0.5rem;
+    margin-left: 2.5rem;
+    /* align with text */
+}
+
+.actions {
+    background-color: var(--gray-50);
+    padding: 1rem 1.5rem;
+    display: flex;
+    justify-content: flex-end;
+    border-top: 1px solid var(--gray-100);
+}
+
+.examples {
+    margin-top: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.75rem;
+}
+
+.exampleLabel {
+    font-size: 0.875rem;
+    color: var(--gray-400);
+    font-weight: 500;
+}
+
+.tags {
+    display: flex;
+    gap: 0.75rem;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.tag {
+    background-color: var(--bg-surface);
+    border: 1px solid var(--primary-200);
+    color: var(--primary-700);
+    padding: 0.5rem 1rem;
+    border-radius: 999px;
+    font-size: 0.875rem;
+    transition: all 0.2s;
+}
+
+.tag:hover {
+    background-color: var(--primary-50);
+    border-color: var(--primary-300);
+}
