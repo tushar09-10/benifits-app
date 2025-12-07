@@ -1,6 +1,6 @@
 # BenefitsAI – Intelligent Employee Benefits Discovery
 
-**Created by Singh**
+**Created by Tushar Singh**
 
 Welcome to **BenefitsAI**, a next-generation frontend application designed to simplify how employees discover and utilize their health benefits. This project was conceptualized and built to demonstrate a seamless, AI-driven user experience that bridges the gap between complex insurance terminology and natural human language.
 
